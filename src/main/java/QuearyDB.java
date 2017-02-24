@@ -31,7 +31,7 @@ public class QuearyDB {
         // to
 
         st.executeUpdate(query);
-
+        String name="";
         return null;
     }
 
