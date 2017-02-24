@@ -19,7 +19,7 @@ public class QuearyDB {
 
 
         st.executeUpdate(query);
-
+        String name="";
         return null;
     }
 
