@@ -1,5 +1,4 @@
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
@@ -10,29 +9,27 @@ public class QuearyDB {
 
     Statement st;
 
-    public QuearyDB() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        st = ConnectToDB.getInstance().accessDataBase();
+    public QuearyDB(String dbName){
+        ConnectToDB cdb = new ConnectToDB(dbName);
+        st = cdb.accessDataBase();
     }
 
 
-    public ResultSet fullOuterJoinDerby(String columns, String tables, String joinCondition) throws SQLException {//put
+    public ResultSet fullOuterJoinDerby(String columns, String tables, String joinCondition){//put
         // password ,username and salt value to
 
 
 
         return null;
     }
-    public ResultSet fullOuterJoinRowset(String columns, String tables, String joinCondition) throws SQLException {//put password ,username and salt value to
+    public ResultSet fullOuterJoinRowset(String columns, String tables, String joinCondition){//put password ,username and salt value to
 
 
 
         return null;
     }
-    public ResultSet fullOuterJoinNestedLoop(String columns, String tables, String joinCondition) throws SQLException {//put password ,username and salt value
-        // to
+    public ResultSet fullOuterJoinNestedLoop(String columns, String tables, String joinCondition) {//put password ,username and salt value
 
-
-        String name="";
         return null;
     }
 
