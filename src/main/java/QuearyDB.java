@@ -15,8 +15,20 @@ public class QuearyDB {
     }
 
 
-    public ResultSet storePassword(String query) throws SQLException {//put password ,username and salt value to the database
+    public ResultSet fullOuterJoinDerby(String query) throws SQLException {//put password ,username and salt value to
 
+        st.executeUpdate(query);
+
+        return null;
+    }
+    public ResultSet fullOuterJoinRowset(String query) throws SQLException {//put password ,username and salt value to
+
+        st.executeUpdate(query);
+
+        return null;
+    }
+    public ResultSet fullOuterJoinNestedLoop(String query) throws SQLException {//put password ,username and salt value
+        // to
 
         st.executeUpdate(query);
 
