@@ -29,7 +29,7 @@ public class QuearyDB {
         return null;
     }
     public ResultSet fullOuterJoinNestedLoop(String columns, String tables, String joinCondition) {//put password ,username and salt value
-        
+
         return null;
     }
 
