@@ -15,22 +15,23 @@ public class QuearyDB {
     }
 
 
-    public ResultSet fullOuterJoinDerby(String query) throws SQLException {//put password ,username and salt value to
+    public ResultSet fullOuterJoinDerby(String columns, String tables, String joinCondition) throws SQLException {//put
+        // password ,username and salt value to
 
-        st.executeUpdate(query);
 
-        return null;
-    }
-    public ResultSet fullOuterJoinRowset(String query) throws SQLException {//put password ,username and salt value to
-
-        st.executeUpdate(query);
 
         return null;
     }
-    public ResultSet fullOuterJoinNestedLoop(String query) throws SQLException {//put password ,username and salt value
+    public ResultSet fullOuterJoinRowset(String columns, String tables, String joinCondition) throws SQLException {//put password ,username and salt value to
+
+
+
+        return null;
+    }
+    public ResultSet fullOuterJoinNestedLoop(String columns, String tables, String joinCondition) throws SQLException {//put password ,username and salt value
         // to
 
-        st.executeUpdate(query);
+
         String name="";
         return null;
     }
