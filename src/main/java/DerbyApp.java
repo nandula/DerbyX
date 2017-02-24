@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class DerbyApp {
     public static void main(String[] args) throws SQLException, ClassNotFoundException, IllegalAccessException,
             InstantiationException {
-        QuearyDB qdb = new QuearyDB();
+        System.out.println("ndbsbdmsbdn");
     }
 
 }
